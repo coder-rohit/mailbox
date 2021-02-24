@@ -1,0 +1,259 @@
+p {
+  margin-bottom: 0rem;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+}
+.container1 {
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.accbtn {
+  border: none;
+  height: 40px;
+  width: 160px;
+  background-color: rgb(13, 126, 255);
+  color: white;
+  border-radius: 4px;
+}
+
+.accbtn:hover {
+  background-color: rgb(228, 1, 1);
+}
+
+.regbtn {
+  border: none;
+  height: 40px;
+  width: 160px;
+  background-color: rgb(13, 126, 255);
+  color: white;
+  border-radius: 4px;
+  display: none;
+}
+
+.regbtn:hover {
+  background-color: rgb(228, 1, 1);
+}
+
+.fast p {
+  font-size: smaller;
+}
+
+.signupform {
+  border: 2px solid rgb(223, 223, 223);
+  padding: 10px;
+  min-height: 350px;
+  background-color: rgb(245, 250, 255);
+  border-radius: 4px;
+}
+
+.registerform {
+  border: 2px solid rgb(223, 223, 223);
+  padding: 10px;
+  height: 476px;
+  background-color: rgb(245, 250, 255);
+  border-radius: 4px;
+  display: none;
+}
+
+.signinput {
+  margin-left: 60px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 4px;
+  width: 182px;
+}
+
+.signinput:focus {
+  outline: 1px solid rgb(196, 196, 255);
+  border-radius: 4px;
+}
+
+.signinputp {
+  margin-left: 60px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 4px;
+  width: 182px;
+}
+
+.signinputp:focus {
+  outline: 1px solid rgb(196, 196, 255);
+  border-radius: 4px;
+}
+
+.signbtn {
+  border: none;
+  margin: 0 35%;
+  padding: 6px 20px;
+  color: white;
+  background-color: rgb(255, 70, 70);
+  border-radius: 4px;
+}
+
+.signbtn:hover {
+  background-color: blue;
+}
+
+.signbtnf {
+  border: none;
+  margin: 0 25%;
+  padding: 6px 20px;
+  color: white;
+  width: 159px;
+  background-color: rgb(255, 70, 70);
+  border-radius: 4px;
+}
+
+.signbtnf:hover {
+  background-color: blue;
+}
+
+.buttonL:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.forgetpass:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(184, 0, 0);
+}
+
+.checkbox {
+  font-size: 10px;
+}
+
+.rememberl {
+  display: block;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
+.errmsg {
+  margin: 15px 41px;
+  color: red;
+}
+
+.btlogin {
+  margin: 0px 41px;
+  color: red;
+}
+
+.acca {
+  margin-left: 21%;
+  margin-top: 12px;
+}
+
+.genderm {
+  margin-left: 25%;
+}
+
+.acca {
+  text-decoration: underline !important;
+  color: blue !important;
+  cursor: pointer;
+}
+
+.buttonL {
+  border: none;
+  padding: 6px 20px;
+  color: white;
+  /* outline: none; */
+  background-color: rgb(255, 70, 70);
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.inboxDiv {
+  height: 480px;
+  width: 800px;
+  border: 1px solid rgba(26, 207, 252, 0.308);
+  background-color: rgba(26, 207, 252, 0.308);
+  margin-top: 1px;
+}
+
+.navbuttonsI {
+  width: 100%;
+  border: none;
+  padding: 10px 0px;
+  transition: 0.5s;
+  margin-top: 1px;
+  color: black;
+  outline: none;
+  background-color: rgba(26, 207, 252, 0.61);
+  text-align: center;
+}
+
+.navbuttonsI:hover {
+  background-color: rgba(26, 207, 252, 0.308);
+  color: black;
+  transform: scale(1.1);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.activeNavB {
+  background-color: rgba(26, 207, 252, 0.308);
+  color: black;
+  font-weight: 500;
+}
+
+.inboxb {
+  padding-right: 0px;
+  padding-left: 0px;
+  /* margin-top: 1px; */
+}
+
+.buttonTd button {
+  border: none;
+  background-color: rgb(26, 79, 252);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.buttonTd button:hover {
+  background-color: rgb(255, 70, 70);
+}
+
+.inputcompose {
+  width: 270px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  /* opacity: 95%; */
+}
+
+.tabledraft,
+.tabledraft th,
+.tabledraft td {
+  border: 1px solid rgb(0, 47, 255);
+  margin-left: 10px;
+}
+
+.tabledraft th,
+.tabledraft td {
+  width: 168px;
+  height: 47px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.tabledraft th {
+  font-weight: 700;
+}
+
+#eyetogglePassword{
+  margin-left: -26px;
+  margin-top: 20px;
+  cursor: pointer;
+  z-index: 11;
+}
